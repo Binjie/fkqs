@@ -1,0 +1,24 @@
+
+
+接口
+
+/sessions								GET		get login data
+/sessions 								POST	login
+/sessions								DELETE	logout
+/users									GET		get current user
+/users									PUT		update current user
+/quotations								GET		get quotation list
+/quotations								POST	add quotation
+/quotations/:quotationid				GET		get quotation
+/quotations/:quotationid				PUT		update quotation
+/quotations/:quotationid				DELETE	delete quotation
+/quotations/histories/:quotationid		GET		get quotations history list
+/quotations/contracts/:quotationid		POST	generate quotation to PDF
+
+/admin/users							GET		get user list
+/admin/users							POST	add user
+/admin/users/:userid					GET		get user
+/admin/users/:userid					DELETE	delete user
+/admin/users/:userid					PUT		update user
+
+
